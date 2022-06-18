@@ -1,0 +1,74 @@
+.filter-button.MuiToggleButtonGroup-grouped {
+  margin: 9px;
+  background: #f9f9f9;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.card-button {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid #eb5a1e;
+  color: #eb5a1e;
+  margin: 0;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-toggle-button {
+  display: flex;
+  width: 100%;
+}
+
+.card-toggle-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-toggle-button-group {
+  width: 100%;
+}
+
+.pizzas-box {
+  overflow-y: auto;
+}
+
+.pizzas-grid {
+  display: grid;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-label {
+  margin: 0px 10px;
+}
+
+.card-actions__amount {
+  margin-left: 5px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  background: #eb5a1e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
