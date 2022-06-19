@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Pizza-app-graphql
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Server [repo](https://github.com/kristinashevchenko/pizza-app-graphql-backend)
 
 ## Available Scripts
 
