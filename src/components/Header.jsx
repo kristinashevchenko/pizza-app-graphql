@@ -23,7 +23,6 @@ const Header = ({ orderNumber, price }) => {
     amount = data.amountUpdated;
   }
 
-  console.log(amountData, data, amountLoading, loading);
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar

@@ -5,7 +5,7 @@ import Filter from "../components/Filter.jsx";
 import PizzaItem from "../components/PizzaItem.jsx";
 import "../styles/pizza.css";
 import { ALL, SORTS } from "../contants";
-import { sortHelper } from "../helpers";
+import { sortHelper } from "../helpers/sortHelpers";
 import { addPizza } from "../helpers/cartManager.js";
 import { GET_PIZZAS } from "../graphql/getPizzas.js";
 import { UPDATE_AMOUNT } from "../graphql/updateAmount.js";

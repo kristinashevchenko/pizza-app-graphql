@@ -1,4 +1,4 @@
-import { ALPHABET, POPULARITY, PRICE } from "./contants";
+import { ALPHABET, POPULARITY, PRICE } from "../contants";
 
 const priceSort = (order) => (pizza1, pizza2) => {
   const p1 = pizza1.modifications[0].price || 0;

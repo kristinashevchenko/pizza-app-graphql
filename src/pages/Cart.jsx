@@ -15,7 +15,7 @@ const Cart = () => {
       cache.modify({
         fields: {
           orders(existingOrders = []) {
-            const newTodoRef = cache.writeFragment({
+            const newOrderRef = cache.writeFragment({
               data: createOrder,
               fragment: gql`
                 fragment NewOrder on Order {
@@ -26,7 +26,7 @@ const Cart = () => {
                 }
               `,
             });
-            return [...existingOrders, newTodoRef];
+            return [...existingOrders, newOrderRef];
           },
         },
       });
