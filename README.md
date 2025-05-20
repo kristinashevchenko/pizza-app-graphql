@@ -1,6 +1,31 @@
 # Pizza-app-graphql
 
+A simple pizza ordering web app built to explore and learn **GraphQL** concepts in practice.
+
 Server [repo](https://github.com/kristinashevchenko/pizza-app-graphql-backend)
+
+## Overview
+
+This project demonstrates how to build a full-stack application using GraphQL for data querying and mutation.
+
+User can:
+
+- 👀 Browse a list of pizzas
+- 🛒 Add pizzas to a cart
+- ✅ Review and submit their cart as an order
+- 📦 View a list of previous orders
+
+### Pizzas list page
+
+![Pizza list page](./public/pizza_list.png)
+
+### Cart
+
+![Cart page](./public/cart_page.png)
+
+### Previous orders
+
+![Previous orders page](./public/prev_orders_page.png)
 
 ## Available Scripts
 

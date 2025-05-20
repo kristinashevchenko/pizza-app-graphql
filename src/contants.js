@@ -9,12 +9,12 @@ const CLOSE = "close";
 export const ALL = "all";
 export const FILTERS = [ALL, MEAT, VEGAN, GRILL, HOT, CLOSE];
 export const FILTER_NAMES = {
-  [ALL]: "Все",
-  [MEAT]: "Мясные",
-  [HOT]: "Острые",
-  [VEGAN]: "Вегетарианская",
-  [GRILL]: "Гриль",
-  [CLOSE]: "Закрытые",
+  [ALL]: "All",
+  [MEAT]: "Meat",
+  [HOT]: "Spicy",
+  [VEGAN]: "Vegan",
+  [GRILL]: "Grill",
+  [CLOSE]: "Closed",
 };
 
 export const POPULARITY = "popularity";
@@ -22,12 +22,12 @@ export const PRICE = "price";
 export const ALPHABET = "alphabet";
 export const SORTS = [POPULARITY, PRICE, ALPHABET];
 export const SORT_NAMES = {
-  [POPULARITY]: "популярности",
-  [PRICE]: "цене",
-  [ALPHABET]: "алфавиту",
+  [POPULARITY]: "popularity",
+  [PRICE]: "price",
+  [ALPHABET]: "alphabet",
 };
 
 export const DOUGH_NAMES = {
-  thin: "Тонкое",
-  thick: "Толстое",
+  thin: "Thin",
+  thick: "Thick",
 };

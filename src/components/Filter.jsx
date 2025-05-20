@@ -65,13 +65,13 @@ const Filter = ({ setFilters, filters, sort, setSort, order, setOrder }) => {
           </IconButton>
 
           <p id="demo-simple-select-label" className="sort-label">
-            Сортировка по
+            Sort by
           </p>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
             value={sort}
-            label="Сортировка по"
+            label="Sort by"
             variant="standard"
             onChange={handleChange}
           >

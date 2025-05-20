@@ -53,7 +53,7 @@ const CartPizza = ({ pizza }) => {
       <StyledTableCell align="center">
         <img
           src={imageHelper(pizza.image)}
-          alt="Пицца"
+          alt="Pizza"
           height="80"
           width="80"
         />
@@ -61,7 +61,7 @@ const CartPizza = ({ pizza }) => {
       <StyledTableCell component="th" scope="row">
         <Typography variant="h6">{pizza.name}</Typography>
         <p className="light-text">
-          {pizza.dough} тесто, {pizza.size} см.
+          {pizza.dough} dough, {pizza.size} sm.
         </p>
       </StyledTableCell>
       <StyledTableCell align="right">

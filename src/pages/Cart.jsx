@@ -77,7 +77,7 @@ const Cart = () => {
         />
       )}
       <Link to="/orders">
-        <button className="cart-buttons__button--red">К заказам</button>
+        <button className="cart-buttons__button--red">To orders</button>
       </Link>
     </Box>
   );

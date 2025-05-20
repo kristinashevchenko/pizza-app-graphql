@@ -37,14 +37,14 @@ const CartContent = ({ onSubmit, totalPrice, totalAmount, pizzas }) => {
     <>
       <Box className="cart-header">
         <Typography variant="h4">
-          <ShoppingCartIcon /> Корзина
+          <ShoppingCartIcon /> The Cart
         </Typography>
         <Button
           style={CartButton}
           startIcon={<DeleteIcon />}
           onClick={handleClearClick}
         >
-          Очистить корзину
+          Clear the Cart
         </Button>
       </Box>
       <Box>
@@ -64,22 +64,22 @@ const CartContent = ({ onSubmit, totalPrice, totalAmount, pizzas }) => {
       <Box>
         <Box className="cart-buttons">
           <Box>
-            Всего пицц: <b>{totalAmount} шт.</b>
+            Pizza total: <b>{totalAmount} шт.</b>
           </Box>
           <Box>
-            Сумма заказа:{" "}
-            <span className="order-text">{totalPrice} рублей</span>
+            Total cost:{" "}
+            <span className="order-text">{totalPrice} rubles</span>
           </Box>
         </Box>
         <Box className="cart-buttons">
           <Link to="/">
             <button className="cart-buttons__button--back">
-              Вернуться назад
+              Go back
             </button>
           </Link>
 
           <Button style={OrangeCartButton} onClick={onSubmit}>
-            Оплатить сейчас
+            Pay now
           </Button>
         </Box>
       </Box>

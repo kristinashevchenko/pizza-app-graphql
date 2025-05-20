@@ -35,15 +35,15 @@ const Header = ({ orderNumber, price }) => {
           <Box className="title-box">
             <Box className="primary-title">REACT PIZZA</Box>
             <Box className="secondary-title">
-              самая вкусная пицца во вселенной
+              the most delicious pizza in the universe
             </Box>
           </Box>
         </Box>
         <Box style={{ display: "flex", alignItems: "center" }}>
-          {(!loading || !amountLoading) && <div>{amount} пицц осталось</div>}
+          {(!loading || !amountLoading) && <div>{amount} pizzas left</div>}
           <Link to="/cart">
             <button className="cart-button">
-              {price} р. | <img src={cart} alt="cart" /> {orderNumber}
+              {price} r. | <img src={cart} alt="cart" /> {orderNumber}
             </button>
           </Link>
         </Box>

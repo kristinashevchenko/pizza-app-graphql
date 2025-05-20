@@ -20,13 +20,13 @@ const Orders = () => {
     <Box className="cart-container">
       {data?.orders?.length ? (
         <Box>
-          <h4>Предыдущие заказы</h4>
+          <h4>Previous orders</h4>
           <TableContainer component={Paper}>
             <Table sx={{ minWidth: 700 }} aria-label="orders table">
               <TableHead>
                 <TableRow>
-                  <TableCell align="center">Стоимость</TableCell>
-                  <TableCell align="center">Количество пицц</TableCell>
+                  <TableCell align="center">Cost</TableCell>
+                  <TableCell align="center">Pizza number</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -40,7 +40,7 @@ const Orders = () => {
       ) : null}
       <Link to="/">
         <button className="cart-buttons__button--empty-back">
-          Вернуться назад
+          Go back
         </button>
       </Link>
     </Box>

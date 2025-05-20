@@ -89,9 +89,9 @@ const PizzaItem = ({ pizza, row, column, addPizza }) => {
         </Box>
       </CardContent>
       <CardActions className="card-actions">
-        <Typography>от {price} рублей</Typography>
+        <Typography>from {price} rubles</Typography>
         <button className="card-button" onClick={handleAdd}>
-          <div>Добавить</div>
+          <div>Add</div>
           {amount ? <div className="card-actions__amount">{amount}</div> : null}
         </button>
       </CardActions>

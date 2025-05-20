@@ -14,22 +14,21 @@ const EmptyCartContent = () => {
           gutterBottom={true}
           style={{ fontWeight: "bold" }}
         >
-          Корзина пустая😕
+          The cart is empty😕
         </Typography>
         <Typography
           variant="subtitle1"
           gutterBottom
           className="empty-cart-subtitle"
         >
-          Вероятней всего, вы не заказывали ещё пиццу. Для того, чтобы заказать
-          пиццу, перейди на главную страницу.
+          It is likely that you have not ordered pizza yet. To order pizza, go to the main page.
         </Typography>
       </Box>
       <Box className="empty-cart-item-2">
         <img src={vector} alt="Cart" className="empty-cart-img" />
         <Link to="/">
           <button className="cart-buttons__button--empty-back">
-            Вернуться назад
+            Go back
           </button>
         </Link>
       </Box>
